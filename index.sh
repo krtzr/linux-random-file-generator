@@ -86,7 +86,7 @@ childheirarchy=$2
 childheirarchy="${childheirarchy:-3,2,10}"
 
 # range of file sizes. small- 4K-1M, medium- 1M-16M, large- 16M-1G, xlarge- 16M-4G, all-4K-4G
-filesize=$2
+filesize=$3
 filesize="${filesize:-small}"
 
 f_generate_files $foldername $childheirarchy $filesize
